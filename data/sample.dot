@@ -1,0 +1,19 @@
+digraph MyPicture {
+	graph [rankdir=LR]
+	a
+	b
+	c
+	d0
+	d1
+	e
+	f
+	a -> b
+	a -> c
+	b -> d0
+	b -> d1
+	c -> f
+	d0 -> e
+	d0 -> f
+	d1 -> f
+	e -> b
+}
